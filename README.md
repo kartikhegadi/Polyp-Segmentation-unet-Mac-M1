@@ -54,7 +54,15 @@ By leveraging the [Kvasir-SEG dataset](https://datasets.simula.no/kvasir-seg/), 
 
    ```bash
    # Create a virtual environment
+   # On Windows
    python -m venv venv
+   ```
+
+   pythonx.x represent python version use Python >= 3.7 and < 3.11 **recommended** Python 3.8 eg : **python3.8  -m venv ven** 
+   ```bash
+   # Create a virtual environment
+   # On macOS
+   pythonx.x -m venv venv 
    ```
 
     Activate the virtual environment.
@@ -71,7 +79,12 @@ By leveraging the [Kvasir-SEG dataset](https://datasets.simula.no/kvasir-seg/), 
    Install the required Python packages using `pip`.
    
    ```bash
+   # On Windows
    pip install -r requirements.txt
+   ```
+   ```bash
+   # On macOS
+   pip install -r requirements-mac-os.txt
    ```
 
 4. **Model Training**
